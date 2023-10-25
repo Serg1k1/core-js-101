@@ -250,7 +250,6 @@ function getRectangleString(width, height) {
     }
     str += '\n';
   }
-  console.log(str);
   return str;
 }
 

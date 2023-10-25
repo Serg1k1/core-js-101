@@ -253,7 +253,7 @@ function toArrayOfSquares(arr) {
  */
 function getMovingSum(arr) {
   let sum = 0;
-  const cumulativeSum = function (value) {
+  const cumulativeSum = (value) => {
     sum += value;
     return sum;
   };
